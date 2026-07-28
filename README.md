@@ -1,8 +1,6 @@
 # AIVOA — AI-Powered Customer Complaint Management System
 
-Round 1 assignment submission: a pharma-manufacturing customer complaint
-intake system with an AI copilot that extracts structured data from
-uploaded documents/pasted text and auto-populates the complaint form.
+
 
 ## Stack (matches the mandatory requirements)
 
@@ -12,7 +10,7 @@ uploaded documents/pasted text and auto-populates the complaint form.
 | Backend | Python + FastAPI |
 | AI orchestration | LangGraph |
 | LLMs | Groq — `gemma2-9b-it` for extraction/summary, `llama-3.3-70b-versatile` for reasoning steps |
-| Database | MySQL/Postgres via SQLAlchemy (defaults to local SQLite so it runs without a DB server; point `DATABASE_URL` at MySQL/Postgres to match the assignment) |
+| Database | MySQL|
 | Font | Google Inter |
 
 ## How the AI pipeline works

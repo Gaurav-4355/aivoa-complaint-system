@@ -1,0 +1,19 @@
+# secrets
+.env
+backend/.env
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+*.db
+
+# node
+node_modules/
+dist/
+package-lock.json
+
+# misc
+.DS_Store
